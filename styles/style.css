@@ -98,25 +98,19 @@
 
 .features-container{
     display: flex;
-    gap: 50px;
+    gap: 100px;
     align-items: center;
     padding-top: 85px;
 }
 
-.images-first{
-    display: flex;
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     gap: 20px;
 }
 
-.images-second{
-    display: flex;
-    gap: 20px;
-    padding-top: 20px;
-}
-
-.image img{
+.images img{
     width: 100%;
-    /* height: 242px; */
 }
 
 .feature-title{
@@ -217,7 +211,7 @@
 /* --------------------Some Facts Style---------------- */
 
 .facts-section{
-    margin-top: 130px;
+    margin-top: 100px;
 }
 
 .facts-title{
@@ -228,7 +222,7 @@
 .winning-section{
     display: flex;
     justify-content: space-around;
-    margin: 100px 0;
+    margin: 60px 0;
 }
 
 .win-box{
@@ -267,8 +261,8 @@
 .sponsors-logo{
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    margin-bottom: 100px;
+    padding-top: 30px;
+    margin-bottom: 80px;
     opacity: 75%;
 }
 
@@ -281,4 +275,5 @@ footer{
     font-weight: 400;
     font-size: 20px;
     color: #424242;
+    margin-bottom: 30px;
 }
