@@ -107,6 +107,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
+    width: 50%;
 }
 
 .images img{
@@ -145,13 +146,11 @@
 
 .right-love{
     padding: 20px 0;
+    width: 50%;
 }
 
 .left-image img{
-    /* width: 100%;
-    height: 100%; */
-    height: 900px;
-    width: 600px;
+    width: 100%;
 }
 
 .love-enjoy-title{
@@ -190,7 +189,7 @@
 /*--------------------- Experience Button Style--------------------*/
 
 .year-button{
-    margin-left: 40%;
+    margin-left: 43%;
     margin-top: -100px;
 }
 
@@ -215,7 +214,7 @@
 /* --------------------Some Facts Style---------------- */
 
 .facts-section{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .facts-title{
@@ -232,7 +231,7 @@
 .win-box{
     text-align: center;
     box-sizing: border-box;
-    padding: 30px 40px;
+    padding: 50px 60px;
     border: 1px solid #FF900E;
     border-radius: 10px;
 }
@@ -280,4 +279,5 @@ footer{
     font-size: 20px;
     color: #424242;
     margin-bottom: 30px;
+    border-radius: 5px;
 }
