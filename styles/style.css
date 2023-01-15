@@ -107,7 +107,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
-    width: 50%;
 }
 
 .images img{
@@ -146,7 +145,6 @@
 
 .right-love{
     padding: 20px 0;
-    width: 50%;
 }
 
 .left-image img{
@@ -189,7 +187,7 @@
 /*--------------------- Experience Button Style--------------------*/
 
 .year-button{
-    margin-left: 43%;
+    margin-left: 48%;
     margin-top: -100px;
 }
 
