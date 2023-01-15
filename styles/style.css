@@ -244,6 +244,72 @@
     color: #fff;
   }
 
+/* -------------Extra Sign up section style------------ */
+
+  .signup-cover{
+    background-image: url("../assets/images/visitor-hp-signup-bg.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+  }
+
+  .signup-cover-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 20px;
+    padding: 100px 0;
+  }
+
+  .signup-title{
+    font-size: 36px;
+    padding-bottom: 10px;
+    color: #424242;
+  }
+
+  .signup-google{
+    text-align: center;
+  }
+
+  /* .signup-google form{
+    width: 50%;
+  } */
+
+  .continue-google{
+    padding: 10px 60px;
+    font-size: 18px;
+    color: #424242;
+    background-color: #ffffff;
+    outline: none;
+    border: 1px solid;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+
+  .continue-email{
+    padding: 10px 40px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid;
+    margin: 10px 0;
+  }
+
+  .continue-with-email{
+    padding: 10px 70px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid;
+    margin: 10px 0;
+    background-color: #FF900E;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .privacy{
+    font-size: 10px;
+  }
+
   /* --------------------Our Sponsors Style-------------------------- */
 
 .sponsors{
@@ -368,4 +434,19 @@ footer{
         align-items: center;
         gap: 20px;
     }
+
+    .signup-cover-container{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 0 20px;
+    }
+
+    .signup-cover-title{
+        text-align: center;
+    }
+
+    .privacy{
+        padding-bottom: 20px;
+    }
+
+
 }
