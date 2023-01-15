@@ -230,7 +230,7 @@
 .win-box{
     text-align: center;
     box-sizing: border-box;
-    padding: 50px 60px;
+    padding: 40px 40px;
     border: 1px solid #FF900E;
     border-radius: 10px;
 }
@@ -271,10 +271,6 @@
   .signup-google{
     text-align: center;
   }
-
-  /* .signup-google form{
-    width: 50%;
-  } */
 
   .continue-google{
     padding: 10px 60px;
@@ -348,7 +344,7 @@ footer{
 }
 
 
-/*---------------------- Responsive Part  -------------------------*/
+/*---------------------- Responsive Part 1 -------------------------*/
 
 @media only screen and (max-width: 576px) {
     
@@ -447,6 +443,68 @@ footer{
     .privacy{
         padding-bottom: 20px;
     }
+}
 
+/* ------------------Responsive 577px-768px Part-2 ------------------ */
 
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    .nav-ber{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .features-container, .love-enjoy-container{
+        flex-direction: column;
+    } 
+
+    .winning-section, .sponsors-logo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .signup-cover-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .signup-cover-title{
+        text-align: center;
+    }
+}
+
+/* ------------------Responsive 768px-992px Part-3 ------------------ */
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    .logo-name{
+        font-size: 30px;
+    }
+
+    .features-container, .love-enjoy-container{
+        flex-direction: column;
+    }
+
+    .sub-title-des br{
+        display: none;
+    }
+
+    .winning-section{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+
+    .sponsors-logo{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    .signup-cover-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+
+    .signup-cover-title{
+        text-align: center;
+    }
 }
